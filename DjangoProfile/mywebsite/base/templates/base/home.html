@@ -1,0 +1,136 @@
+{% load static %}
+<!----
+    
+    
+-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alan Roy</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css" >
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+       
+    </head>
+    <body>
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper" >
+                    <img id="profile-pic" src="{% static 'images/profile.jpg' %}">
+                    <br>
+                    <hr>
+                    <h4><b>Alan Roy</b> </h4>
+                    <p>Web Developer | App Developer</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>About me</h4>
+					<hr>
+					<p><b>I'm Alan Roy</b>,a freelance web developer with a passion for creating visually stunning and user-friendly websites.I specialize in front-end technologies like HTML, CSS, and JavaScript, and I'm proficient in frameworks like React and Angular.
+                        I stay up to date with the latest web development trends and continuously expand my skills through online courses and certifications. I am committed to delivering exceptional results while providing a seamless user experience.</p>
+                    <p style="color:aqua">
+                        <address><i>
+                        Location :Ernakulam,Kerala,India<br>
+                        Email:alan@gmail.com <br>
+                        Contact:9000678435<br>
+                    </address></i>
+                </p>
+                    <ul class="social-links">
+						<li><a href="https://www.facebook.com/"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+						<li><a href="https://www.linkedin.com/in/alan-roy-95a5201b9/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100"><h5>Education</h5>
+					<hr>
+					<p>MCA</p>
+					<p>Rajagiri College of Social Sciences ,Kerala</p></div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+					<hr>
+					
+					 <!-- ======= Skills Section ======= -->
+    
+        <div class="row skills-content">
+  
+            <div class="col-lg-6" data-aos="fade-up">
+  
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <br>
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <br>
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+  
+              <div class="progress">
+                <span class="skill">PHP <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <br>
+              <div class="progress">
+                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+                 <br>
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+  
+       
+  
+                </div>
+            </div>
+        </div>
+        <br>
+       
+    </div>
+
+    
+    </body>
+    </html>
